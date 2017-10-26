@@ -3,7 +3,7 @@
 
 void printMatrix(int **, int, int);
 int ** createMatrix(int,int);
-void freeMatrix(int **, int, int);
+void freeMatrix(int **, int, int); // funcion para liberar memoria que usa la matriz, usala cuando termines de usar la matriz.
 
 int main(void){
     int f,r;
